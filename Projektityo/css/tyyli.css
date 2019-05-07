@@ -106,10 +106,23 @@ iframe{
     display: none;
     opacity: .8;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: fuchsia;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
     width: 100%;
     z-index: 10;
 }
+#dialogbox {
+    display: none;
+    position: fixed;
+    background: fuchsia;
+    border-radius: 7px;
+    width: 550px;
+    z-index: 10;
+}
+
+#dialogbox > div { background: fuchsia; margin: 8px}
+#dialogbox > div > #dialogboxhead { background: deeppink; font-size: 19px; padding: 10px; color: darkviolet}
+#dialogbox > div > #dialogboxbody { background: hotpink; padding: 20px; color: blueviolet}
+#dialogbox > div > #dialogboxfoot { background: deeppink; padding: 10px; text-align: right}
 

@@ -5,6 +5,7 @@
     <title>Etusivu</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="../javascript/saa.js"></script>
+    <script src="../javascript/ponnahdusikkuna.js">S</script>
     <link rel="stylesheet" href="../css/tyyli.css">
 </head>
 <body>
@@ -57,7 +58,7 @@
 </div>
 
 <div id="dialogoverlay"></div>
-<div> id="dialogbox">
+<div id="dialogbox">
     <div>
         <div id="dialogboxhead"></div>
         <div id="dialogboxbody"></div>
@@ -65,10 +66,9 @@
     </div>
 </div>
 
-<video id="video" width="900" height="450" controls>
+<video id="video" width="900" height="450"  onclick="Alert.render('Sisältää haikeita muistoja')" controls>
     <source src="../video/VideoAanilla.mp4" type="video/mp4" >
 </video>
-
 
 </body>
 </html>
