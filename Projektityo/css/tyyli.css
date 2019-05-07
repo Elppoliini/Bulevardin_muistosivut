@@ -40,10 +40,9 @@ img .icon {
 }
 
 .tekstiosio{
-    background: white;
+    background: #ffffffcc;
     margin: 30px;
     padding: 15px;
-    opacity: 0.8;
 }
 
 nav ul{
@@ -111,5 +110,14 @@ iframe{
     background-color: fuchsia;
     width: 100%;
     z-index: 10;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+#henkilokuva{
+    width: 45%;
+    position: relative;
+
 }
 
